@@ -89,7 +89,7 @@ class App extends React.Component {
           this.state.input)
         .then(response => {
           if (response) {
-            fetch("https://mybackend-lcki.onrender.com/image", {
+            fetch("https://mybackend-97fn.onrender.com/image", {
               method: "put",
               headers: {"Content-Type": "application/json"},
               body: JSON.stringify({

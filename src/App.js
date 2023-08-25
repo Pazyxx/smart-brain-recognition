@@ -89,7 +89,7 @@ class App extends React.Component {
           this.state.input)
         .then(response => {
           if (response) {
-            fetch("https://github.com/Pazyxx/smart-brain-recognition.git/image", {
+            fetch("https://mybackend-lcki.onrender.com/image", {
               method: "put",
               headers: {"Content-Type": "application/json"},
               body: JSON.stringify({
